@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  /* Fundos */
+  --bg-primary: #171F30;
+  --bg-secondary: #1D2636;
+  --bg-card: #252F40;
+
+  /* Bordas */
+  --border-color: #333C4D;
+
+  /* Textos */
+  --text-primary: #F1F5F9;
+  --text-secondary: #94A3B8;
+
+  /* Destaques */
+  --accent-color: #60A5FA;
+  --accent-hover: #3B82F6;
+
+  /* Tipografia */
+  --font-primary: 'Inter', sans-serif;
+}
