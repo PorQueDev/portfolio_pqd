@@ -1,0 +1,44 @@
+# ==========================================
+# Ambiente Virtual e Python
+# ==========================================
+venv/
+env/
+ENV/
+.venv/
+*.pyc
+__pycache__/
+*.pyo
+*.pyd
+.Python
+
+# ==========================================
+# Banco de Dados Local & Mídia do Django
+# ==========================================
+*.sqlite3
+*.sqlite3-journal
+db.sqlite3
+/server/media/
+
+# ==========================================
+# Arquivos de Configuração Secreta e Variáveis
+# ==========================================
+.env
+.env.local
+.env.*.local
+
+# ==========================================
+# IDEs e Editores de Código
+# ==========================================
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# ==========================================
+# Frontend / Node (se vir a usar pacotes no futuro)
+# ==========================================
+node_modules/
+dist/
+build/
+.cache/
